@@ -1,3 +1,4 @@
+
 public class Node<T> {
   var value: T
   var next: Node<T>?
@@ -89,7 +90,7 @@ extension LinkedList: CustomStringConvertible {
   }
 }
 
-
+/// usage
 
 let dogBreeds = LinkedList<String>()
 dogBreeds.append(value: "Labrador")
